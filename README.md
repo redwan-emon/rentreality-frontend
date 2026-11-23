@@ -1,59 +1,59 @@
-# RentrealityFrontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.5.
+# RentReality Frontend
 
-## Development server
+RentReality is a property management and search application developed using Angular.
 
-To start a local development server, run:
+This project is the frontend component of the RentReality full-stack application for COM661 Coursework 2.
+
+## Technologies
+
+- Angular (CLI version 22.2.5)
+- TypeScript
+- HTML
+- CSS
+- Flask REST API (backend)
+- MongoDB (database)
+
+## Installation
+
+Clone the repository and open the project folder.
+
+Install the required dependencies:
+
+```bash
+npm install
+```
+
+## Running the Application
+
+Start the Angular development server:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open the application in your browser:
 
-## Code scaffolding
+http://localhost:4200/
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Building the Application
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+Create a production build:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Running Unit Tests
 
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Run the Angular unit tests:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+## Project Development
 
-For end-to-end (e2e) testing, run:
+The frontend is being developed as part of COM661 Coursework 2.
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+The application will integrate with the existing RentReality Flask REST API to support property searching, property details, user authentication and property management.
