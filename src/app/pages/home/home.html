@@ -1,0 +1,93 @@
+
+<!-- Navigation -->
+<header class="site-header">
+  <div class="container nav-container">
+    <a href="/" class="logo">RentReality<span>.</span></a>
+
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="/">Home</a>
+      <a href="#properties">Properties</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero section -->
+<main>
+  <section class="hero">
+    <div class="container hero-content">
+      <span class="hero-tag">WELCOME TO RENTREALITY</span>
+
+      <h1>Find a Place You'll Love to Call Home.</h1>
+
+      <p>
+        Discover properties that match your lifestyle.
+        Explore locations, compare property details
+        and find your next home with RentReality.
+      </p>
+
+      <a href="#properties" class="explore-btn">
+        Explore Properties
+      </a>
+    </div>
+  </section>
+
+  <!-- Property search -->
+  <section class="search-section" id="properties">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-tag">FIND YOUR PROPERTY</span>
+        <h2>Search Available Properties</h2>
+        <p>Explore homes based on your preferences.</p>
+      </div>
+
+      <div class="search-box">
+        <div class="search-field">
+          <label for="location">Location</label>
+          <input
+            type="text"
+            id="location"
+            placeholder="e.g. Canary Wharf"
+          />
+        </div>
+
+        <div class="search-field">
+          <label for="bedrooms">Bedrooms</label>
+          <select id="bedrooms">
+            <option value="">Any bedrooms</option>
+            <option value="1">1 Bedroom</option>
+            <option value="2">2 Bedrooms</option>
+            <option value="3">3 Bedrooms</option>
+            <option value="4">4 Bedrooms</option>
+          </select>
+        </div>
+
+        <button type="button" class="search-btn" disabled>
+          Search Properties
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Listings -->
+  <section class="listings-section">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-tag">EXPLORE HOMES</span>
+        <h2>Featured Properties</h2>
+        <p>Browse property listings from RentReality.</p>
+      </div>
+
+      <div class="property-grid">
+        <!-- Property cards will be loaded from the API -->
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <p>RentReality | Property Search & Management</p>
+    <p>COM661 Full Stack Strategies and Development</p>
+  </div>
+</footer>
